@@ -44,5 +44,11 @@ public class EmployeeEntity {
 	@UpdateTimestamp
 	private LocalDate updatedDate;
 	
+	@Column(name = "CREATED_BY")
+	private Integer createdBy;
+	
+	@Column(name = "UPDATED_BY")
+	private Integer updatedBy;
+	
 
 }
